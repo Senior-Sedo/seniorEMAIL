@@ -1,0 +1,49 @@
+{
+  "name": "@ssts/email",
+  "description": "Validate an email => true | false.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Senior-Sedo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senior-Sedo/seniorEMAIL.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "email",
+    "address",
+    "validate",
+    "validator",
+    "validation",
+    "check",
+    "checking",
+    "validate-email",
+    "email-validator",
+    "email-validation",
+    "validate-email-address",
+    "email-address-validation",
+    "email-address",
+    "check-email",
+    "string",
+    "regex",
+    "regex-email",
+    "email-regex",
+    "is-email",
+    "isemail",
+    "isEmail"
+  ],
+  "author": "Senior Sedo",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
