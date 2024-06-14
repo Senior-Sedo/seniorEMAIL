@@ -33,6 +33,8 @@ console.log(seniorEMAIL("valid.email@domain.com"));     // true
 console.log(seniorEMAIL("contact@mydomain.org"));       // true
 console.log(seniorEMAIL("info@business.info"));         // true
 
+console.log(seniorEMAIL(""));                           // false
+console.log(seniorEMAIL("abc"));                        // false
 console.log(seniorEMAIL("user@.com"));                  // false
 console.log(seniorEMAIL("user@@domain.com"));           // false
 console.log(seniorEMAIL("&user@email.com"));            // false
