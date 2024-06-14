@@ -16,7 +16,7 @@ const isEmail: boolean = seniorEMAIL("example@test.com");
 ```
 
 ## Arguments
-> Returns a number
+> Returns a boolean
 
 | Order | Parameter |  Type  | Default  |
 | :---: | :-------: | :----: | :------: |
