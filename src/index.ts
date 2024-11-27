@@ -2,7 +2,7 @@
  * Validate an email => true | false.
  * @param {string} email - required
  * @returns {boolean} true | false
- * @throws Error if the email is not a string
+ * @throws TypeError if the email is not a string
  * 
  * @example
  * import seniorEMAIL from "@ssts/email";
