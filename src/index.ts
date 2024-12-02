@@ -19,15 +19,12 @@ const seniorEMAIL = (email: string): boolean => {
 
 declare global {
   interface Window {
-    ssts: {
-      seniorEMAIL?: typeof seniorEMAIL;
-    };
+    ssts: any;
   }
 }
-
-if (window != undefined) {
-  window.ssts = {};
+if (typeof window !== "undefined") {
+  if (typeof window.ssts !== "object") window.ssts = {};
   window.ssts.seniorEMAIL = seniorEMAIL;
-}
+};
 
 export default seniorEMAIL;
